@@ -35,6 +35,11 @@
   - body: **amount (int)**
   - param: **/api/repayment/{repayment}** repayment is a **scheduled_repayments_loan_id** in table **scheduled_repayments_loan**
 
+### FEATURE TEST
+- run the command:  **php artisan test**
+- run the command for coverage: **php artisan test --coverage-html tests/reports/coverage**
+- also review the test in **tests** folder
+
 ### ARCHITECTURE
 **ENV**
 - **php artisan serve and sqlite** good for demo project no need to set up too much
